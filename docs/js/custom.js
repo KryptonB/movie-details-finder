@@ -10,7 +10,7 @@ $(document).ready(function(){
 		//console.log('http://www.omdbapi.com/');
 		// Call the OMDb API using Ajax
 		$.ajax({
-			url: 'http://www.omdbapi.com/',
+			url: 'https://www.omdbapi.com/',
 			method: 'GET',
 			data: {
 				t: movieTitle,
