@@ -29,7 +29,7 @@ $(document).ready(function(){
 									<div class="col-md-3">
 										<img class="img-fluid poster" src="${movie.Poster}"><br><br>
 										<a target="_blank" class="btn btn-primary btn-block" href="${movie.Website}"> Website (if available)</a> <br>
-										<a target="_blank" class="btn btn-danger btn-block" href="${imdbMovieURL}"> View On IMDb </a>
+										<a target="_blank" class="btn btn-danger btn-block" href="${imdbMovieURL}"> View On IMDb </a> <br>
 									</div>
 									<div class="col-md-6">
 										<ul class="list-group">
@@ -45,7 +45,7 @@ $(document).ready(function(){
 											<li class="list-group-item"><strong>Awards: </strong>${movie.Awards}</li>
 											<li class="list-group-item"><strong>Ratings: </strong>${movie.Ratings}</li>
 										</ul>
-									</div>
+									</div> <br>
 									<div class="col-md-3">
 										<div class="card">
 											<h5 class="card-header text-white bg-warning">More Details</h5>
