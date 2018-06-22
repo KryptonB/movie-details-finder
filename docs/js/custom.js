@@ -45,7 +45,8 @@ $(document).ready(function(){
 											<li class="list-group-item"><strong>Awards: </strong>${movie.Awards}</li>
 											<li class="list-group-item"><strong>Ratings: </strong>${movie.Ratings}</li>
 										</ul>
-									</div> <br>
+										<br>
+									</div> 
 									<div class="col-md-3">
 										<div class="card">
 											<h5 class="card-header text-white bg-warning">More Details</h5>
