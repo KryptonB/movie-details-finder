@@ -27,3 +27,7 @@ This project is licensed under [MIT](https://choosealicense.com/licenses/mit/) l
 ## Acknowledgements
 * Uses the [OMDb API](http://www.omdbapi.com/)
 * Inspired by Brad Traversy's GitHub finder
+
+## ToDo
+* Add plot size option
+* Format ratings sections
