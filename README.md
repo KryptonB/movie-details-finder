@@ -1,6 +1,6 @@
-# Movie Detail Finder
+# Movie Details Finder
 
-Movie Detail Finder is a simple web app that pulls movie or TV show details when you enter the title (and year).
+Movie Details Finder is a simple web app that pulls movie or TV show details when you enter the title (and year).
 
 ## Installation
 * Download the docs folder and open index.html file in a browser
