@@ -1,12 +1,16 @@
 $(document).ready(function(){
 	// Listen to the button click event
 	$('#submitInputs').on('click', function(){
+
+		$('#movie').empty();
+		$('#movie').html('<img class="img-fluid" src="images/ajax-loader.gif">');
+
 		// Get the movie title from the textbox
 		let movieTitle = $('#movieTitle').val();
 		let movieYear = $('#movieYear').val();
 		let apikey = '49b7e5d8';
 		let imdbURL = 'https://www.imdb.com/title/';
-		
+
 		//console.log('http://www.omdbapi.com/');
 		// Call the OMDb API using Ajax
 		$.ajax({
@@ -21,6 +25,7 @@ $(document).ready(function(){
 				let imdbMovieURL = imdbURL + movie.imdbID + '/';
 				$('#movie').empty();
 				if (movie.Response == 'True') {
+				
 					$('#movie').html(`
 						<div class="card">
 							<h5 class="card-header text-white bg-success">${movie.Title} (${movie.Year})</h5>
@@ -46,7 +51,7 @@ $(document).ready(function(){
 											<li class="list-group-item"><strong>Ratings: </strong>${movie.Ratings}</li>
 										</ul>
 										<br>
-									</div> 
+									</div>
 									<div class="col-md-3">
 										<div class="card">
 											<h5 class="card-header text-white bg-warning">More Details</h5>
@@ -64,7 +69,7 @@ $(document).ready(function(){
 												<p><strong>BoxOffice: </strong>${movie.BoxOffice}</p>
 												<p><strong>Production: </strong>${movie.Production}</p>
 											</div>
-										</div>	
+										</div>
 									</div>
 								</div>
 							</div>

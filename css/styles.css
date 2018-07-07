@@ -1,3 +1,12 @@
 .poster {
 	width: 100%;
 }
+
+#loadingImage {
+	display: none,
+	position: absolute;
+	margin-top: 1.875rem;  /* 30px */
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
