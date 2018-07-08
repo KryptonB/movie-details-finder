@@ -25,7 +25,7 @@ $(document).ready(function(){
 				let imdbMovieURL = imdbURL + movie.imdbID + '/';
 				$('#movie').empty();
 				if (movie.Response == 'True') {
-				
+
 					$('#movie').html(`
 						<div class="card">
 							<h5 class="card-header text-white bg-success">${movie.Title} (${movie.Year})</h5>

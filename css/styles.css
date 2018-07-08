@@ -2,7 +2,7 @@
 	width: 100%;
 }
 
-#loadingImage {
+.loadingImage {
 	display: none,
 	position: absolute;
 	margin-top: 1.875rem;  /* 30px */
