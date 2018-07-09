@@ -16,7 +16,7 @@ Movie Details Finder is a simple web app that pulls movie or TV show details whe
 * Click the Clear button to clear the textbox fields
 
 ## Built With
-* [HTML5](https://en.wikipedia.org/wiki/HTML5)- Basic markup
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) - Basic markup
 * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Basic styling
 * [Bootstrap 4.1.1](https://getbootstrap.com/) - Responsive framework
 * [jQuery 3.3.1](https://jquery.com/) - JS framework
