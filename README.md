@@ -1,13 +1,14 @@
 # Movie Details Finder
 
-Movie Details Finder is a simple web app that pulls movie or TV show details when you enter the title (and year if you want to be more specific).  
-You can access a demo at: https://kryptonb.github.io/movie-details-finder/
+Movie Details Finder is a simple web app that pulls movie or TV show details when you enter the title (and year if you want to be more specific). It uses [OMDb API](http://www.omdbapi.com/) to retrieve these details.  
+  
+You can access a demo at: https://kryptonb.github.io/movie-details-finder/  
 
 ![Movie details](https://github.com/KryptonB/movie-details-finder/blob/master/screenshots/result.PNG)
 
 ## Installation
-* Download the docs folder and open index.html file in a browser
-* Remove the api key in custom.js at line 7 and put your own key
+* Download the docs folder and open [index.html](index.html) file in a browser
+* Remove the api key in [custom.js](js/custom.js) at line 7 and put your own key
 
 ### Requirements
 * OMDb API key ([Register for a key](http://www.omdbapi.com/apikey.aspx))
@@ -27,7 +28,7 @@ You can access a demo at: https://kryptonb.github.io/movie-details-finder/
 ## License
 This project is licensed under [MIT](https://choosealicense.com/licenses/mit/) license.
 
-## Acknowledgements
+## Acknowledgments
 * Uses the [OMDb API](http://www.omdbapi.com/)
 * Inspired by Brad Traversy's GitHub finder
 
