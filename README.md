@@ -3,7 +3,7 @@
 Movie Details Finder is a simple web app that pulls movie or TV show details when you enter the title (and year if you want to be more specific).
 You can access a demo at: https://kryptonb.github.io/movie-details-finder/
 
-![Movie details](screenshots/result.png)
+![Movie details](https://github.com/KryptonB/movie-details-finder/blob/master/screenshots/result.PNG)
 
 ## Installation
 * Download the docs folder and open index.html file in a browser
