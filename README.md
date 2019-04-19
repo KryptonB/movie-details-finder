@@ -1,4 +1,6 @@
-# Movie Details Finder
+# Movie Details Finder  
+
+![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/kryptonb/movie-details-finder.svg)
 
 Movie Details Finder is a simple web app that pulls movie or TV show details when you enter the title (and year if you want to be more specific). It uses [OMDb API](http://www.omdbapi.com/) to retrieve these details.  
   
