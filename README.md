@@ -13,7 +13,7 @@ You can access a demo at: https://kryptonb.github.io/movie-details-finder/
 * Download the docs folder and open [index.html](index.html) file in a browser
 * Remove the api key in [custom.js](js/custom.js) at line 7 and put your own key
 
-### Requirements
+## Requirements
 * OMDb API key ([Register for a key](http://www.omdbapi.com/apikey.aspx))
 * Google Chrome web browser (JavaScript enabled)
 * Internet connection with a reasonable speed
